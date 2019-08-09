@@ -7,12 +7,9 @@ Too easy!!
 
 ## Install
 Download file /src/js/vue-select-group.js
-
-Register the component
+and register your header
 ```js
 <script src="js/vue-select-group.js"></script>
-
-and prepare json data
 ```
 
 and prepare custom json data.(just keep the element to g_title, g_datas)
