@@ -1,2 +1,39 @@
 # vue-select-group
-select tag make by group to using vue
+
+> **Grouping select Tag in data**
+
+## Documentation
+Too easy!!
+
+## Install
+Download file /src/js/vue-select-group.js
+
+Register the component
+```js
+<script src="js/vue-select-group.js"></script>
+
+and prepare json data
+```
+
+and prepare custom json data.(just keep the element to g_title, g_datas)
+```js
+// example /src/js/data.js
+datas: [
+      {g_title: '2018', g_datas: [
+        {data: '20180101'},
+        {data: '20180102'}
+      ]},
+      {g_title: '2019', g_datas: [
+        {data: '20190101'},
+        {data: '20190102'}
+      ]}
+    ]
+```
+
+You may now use the component in your markup
+
+```html
+<select>
+  <option is="select-group" v-for="(data, index) in datas" :key="index" :params="data"></option>
+</select>
+```
