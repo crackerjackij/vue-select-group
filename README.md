@@ -4,7 +4,7 @@
 
 ## Documentation
 Too easy!!
-DEMO https://crackerjackij.github.io/vue-select-group/src/index.html
+[DEMO](https://crackerjackij.github.io/vue-select-group)
 
 ## Install
 Download file /src/js/vue-select-group.js
