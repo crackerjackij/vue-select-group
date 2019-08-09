@@ -35,3 +35,5 @@ You may now use the component in your markup
   <option is="select-group" v-for="(data, index) in datas" :key="index" :params="data"></option>
 </select>
 ```
+## License
+FREE!!
