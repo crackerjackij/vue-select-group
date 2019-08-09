@@ -1,6 +1,6 @@
 # vue-select-group
 
-> **Grouping select Tag in data**
+> **Grouping select Tag**
 
 ## Documentation
 Too easy!!
@@ -36,4 +36,4 @@ You may now use the component in your markup
 </select>
 ```
 ## License
-FREE!!
+MIT
