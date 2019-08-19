@@ -9,7 +9,7 @@ Too easy!!
 ## Install
 Download file /src/js/vue-select-group.js
 and register your header
-```js
+```html
 <script src="js/vue-select-group.js"></script>
 ```
 
