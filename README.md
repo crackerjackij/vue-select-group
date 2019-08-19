@@ -13,7 +13,7 @@ and register your header
 <script src="js/vue-select-group.js"></script>
 ```
 
-and prepare custom json data.(just keep the element to g_title, g_datas)
+and prepare custom json data(just keep the element to g_title, g_datas)
 ```js
 // example /src/js/data.js
 datas: [
